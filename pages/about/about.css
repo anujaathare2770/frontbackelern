@@ -1,0 +1,97 @@
+.about{
+    background-image: url(carousel-2.jpg);
+    padding: 80px 0;
+    text-align: center;
+    min-height: 55vh;
+
+    .about-content{
+        max-width: 800px;
+        margin: 0 auto;
+
+        h2{
+            font-size: 32px;
+            color:#3cd3f9;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 16px;
+            color: #f4f1f1;
+            line-height: 1.6;
+        }
+    }
+}
+.text1{
+    float: left;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f1f1;
+    h1{
+        color: #3cd3f9;
+    }
+}
+.about2{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-color:#f4f1f1 ;
+    @media (max-width: 768px) {
+        height: auto;
+    
+      }
+    
+    .abtmage{
+        float: left;
+        height: 100%;
+        width: 50%;
+       
+        @media (max-width: 768px) {
+          width: 100%;
+          height: 350px;
+        }
+        .abtimg1{
+            height: 90%;
+            width: 90%;
+            float: left;
+            background-image: url(about.jpg);
+            margin-top: 4%;
+            margin-left: 5%;
+           
+            
+        }
+        
+    }
+    .abttext{
+       
+        float: left;
+        height: 100%;
+        width: 50%;
+        @media (max-width: 768px) {
+            width: 100%;
+            
+          }
+       .abtinfo{
+           height: 90%;
+           width: 90%;
+           float: left;
+           background-color: #f4f1f1;
+           margin-top: 4%;
+           margin-left: 5%;
+           text-align: center;
+
+           @media (max-width: 768px) {
+            width: 100%;
+          
+          }
+
+          p{
+            margin-top: 6px;
+            font-size: 17px;
+           }
+        
+       }
+        
+    }
+}
+
